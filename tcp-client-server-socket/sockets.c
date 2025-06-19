@@ -58,6 +58,7 @@ int main(){
 
     // char b[2048]; //buffer
     char *b = malloc(2048);
+    memset(b,0,2048); //It takes a pointer to the memory block, the value to fill it with (converted to an unsigned char), and the number of bytes to fill as input. 
     
     char *d; 
     d = "GET / HTTP/1.0 \n\n";
